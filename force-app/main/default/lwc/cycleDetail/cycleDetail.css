@@ -1,0 +1,10 @@
+.product{
+    font-size:20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color: white;
+}
+.detail{
+    background-color:rgb(94, 148, 209);
+
+}

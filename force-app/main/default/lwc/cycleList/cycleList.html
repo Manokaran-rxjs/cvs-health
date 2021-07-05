@@ -1,0 +1,12 @@
+<template>
+              <div class="slds-card">
+                        <ul>
+                        <template for:each={cycleName} for:item="cycle" > 
+                           <li class="slds-m-around_large nameStyle" key={cycle.Id}
+                               onclick={myCycle} data-id={cycle.Id}>{cycle.Name}
+                            </li>
+                        </template>
+                    </ul>
+                    {demo}
+              </div>
+</template>
